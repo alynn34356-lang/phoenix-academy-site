@@ -1,0 +1,63 @@
+body {
+  background-color: #333333;
+  color: white;
+  font-family: Arial, sans-serif;
+}
+
+header {
+  text-align: center;
+  padding: 20px;
+}
+
+#logo {
+  float: left;
+  height: 180px;
+  margin-right: 20px;
+}
+
+nav a {
+  margin: 0 10px;
+  color: white;
+  text-decoration: none;
+}
+
+main {
+  max-width: 800px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.btn {
+  background-color: red;
+  color: white;
+  padding: 10px 20px;
+  text-decoration: none;
+  border-radius: 5px;
+  display: inline-block;
+  margin-top: 10px;
+}
+
+.instructor {
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.instructor img {
+  display: block;
+  margin: 0 auto 10px;
+  border-radius: 8px;
+  max-width: 100%;
+  height: auto;
+}
+
+@media (max-width: 600px) {
+  .instructor img {
+    width: 100%;
+    max-width: 240px;
+  }
+}
+
+footer {
+  text-align: center;
+  padding: 10px;
+}
