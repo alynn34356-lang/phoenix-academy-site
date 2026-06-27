@@ -1,11 +1,9 @@
 body {
-  background: linear-gradient(
-    180deg,
-    #2a2a2c 0%,
-    #232324 45%,
-    #1d1d1f 100%
-);
-
+    margin: 0;
+    padding: 0;
+    background: #19191A;
+    color: #FFFFFF;
+}
 header {
   text-align: center;
   padding: 20px;
