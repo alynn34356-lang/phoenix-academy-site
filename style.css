@@ -61,3 +61,25 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* Instructor page formatting */
+#instructor-details {
+    max-width: 900px;
+    margin: 0 auto;
+    line-height: 1.8;
+}
+
+.bio {
+    text-indent: 2em;
+    margin-bottom: 20px;
+}
+
+#instructor-details img {
+    float: right;
+    margin-left: 30px;
+    margin-bottom: 20px;
+    border-radius: 8px;
+}
+
+#instructor-details h3 {
+    margin-top: 30px;
+}
