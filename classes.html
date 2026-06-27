@@ -1,67 +1,304 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Available Classes | The Phoenix Academy</title>
-  <link rel="stylesheet" href="style.css">
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+<title>Available Classes | The Phoenix Academy</title>
+
+<link rel="stylesheet" href="style.css">
+
+<style>
+
+body{
+    margin:0;
+    background:#19191A;
+    color:white;
+    font-family:Arial, Helvetica, sans-serif;
+}
+
+.classes-page{
+
+    max-width:1200px;
+
+    margin:auto;
+
+    padding:50px 20px;
+
+}
+
+.classes-page h1{
+
+    text-align:center;
+
+    font-size:56px;
+
+    margin-bottom:50px;
+
+    letter-spacing:2px;
+
+}
+
+.class-card{
+
+    display:flex;
+
+    align-items:center;
+
+    background:#202022;
+
+    border:1px solid #333;
+
+    border-radius:12px;
+
+    margin-bottom:30px;
+
+    padding:25px;
+
+    transition:.3s;
+
+}
+
+.class-card:hover{
+
+    border-color:#f04b24;
+
+    box-shadow:0 10px 30px rgba(0,0,0,.45);
+
+    transform:translateY(-3px);
+
+}
+
+.class-date{
+
+    width:120px;
+
+    min-width:120px;
+
+    height:120px;
+
+    margin-right:30px;
+
+    border-radius:10px;
+
+    background:linear-gradient(180deg,#f35a27,#d92b1e);
+
+    color:white;
+
+    display:flex;
+
+    flex-direction:column;
+
+    justify-content:center;
+
+    align-items:center;
+
+}
+
+.class-date span{
+
+    font-size:24px;
+
+    font-weight:bold;
+
+}
+
+.class-date strong{
+
+    font-size:56px;
+
+    line-height:1;
+
+}
+
+.class-info{
+
+    flex:1;
+
+}
+
+.class-info h2{
+
+    margin-top:0;
+
+    font-size:36px;
+
+}
+
+.class-info p{
+
+    font-size:20px;
+
+    color:#d6d6d6;
+
+    margin:8px 0;
+
+}
+
+.register-btn{
+
+    background:#f04b24;
+
+    color:white;
+
+    padding:18px 30px;
+
+    border-radius:8px;
+
+    text-decoration:none;
+
+    font-weight:bold;
+
+    font-size:18px;
+
+    transition:.3s;
+
+}
+
+.register-btn:hover{
+
+    background:#ff6333;
+
+}
+
+@media(max-width:900px){
+
+.class-card{
+
+flex-direction:column;
+
+text-align:center;
+
+}
+
+.class-date{
+
+margin:0 0 25px;
+
+}
+
+.register-btn{
+
+margin-top:25px;
+
+}
+
+}
+
+</style>
+
 </head>
 
 <body>
 
 <header>
-  <img src="images/PhoenixAcademyLogo.png" alt="Phoenix Academy Logo" id="logo">
 
-  <h1>The Phoenix Academy</h1>
+<img src="images/PhoenixAcademyLogo.png" alt="Phoenix Academy Logo" id="logo">
 
-  <nav>
-    <a href="index.html">Home</a>
-    <a href="about.html">About</a>
-    <a href="services.html">Services</a>
-    <a href="classes.html">Available Classes</a>
-    <a href="contact.html">Contact</a>
-  </nav>
+<h1>The Phoenix Academy</h1>
+
+<nav>
+
+<a href="index.html">Home</a>
+
+<a href="about.html">About</a>
+
+<a href="services.html">Services</a>
+
+<a href="classes.html">Available Classes</a>
+
+<a href="contact.html">Contact</a>
+
+</nav>
+
 </header>
 
 <main class="classes-page">
 
-  <h1>Available Classes</h1>
+<h1>AVAILABLE CLASSES</h1>
 
-  <section class="class-card">
-    <div class="class-date">
-      <span>AUG</span>
-      <strong>03</strong>
-    </div>
+<div class="class-card">
 
-    <div class="class-info">
-      <h2>WRT – Water Damage Restoration Technician</h2>
-      <p><strong>Dates:</strong> August 3–5</p>
-      <p><strong>Location:</strong> Phoenix, Arizona</p>
-      <p><strong>Duration:</strong> 3 Days</p>
-      <p>Call <strong>(602) 864-6564</strong> to register for a class at The Asbestos Institute.</p>
-    </div>
+<div class="class-date">
 
-    <a href="tel:16028646564" class="register-btn">Call to Register</a>
-  </section>
+<span>AUG</span>
 
-  <section class="class-card">
-    <div class="class-date">
-      <span>DEC</span>
-      <strong>08</strong>
-    </div>
+<strong>03</strong>
 
-    <div class="class-info">
-      <h2>AMRT – Applied Microbial Remediation Technician</h2>
-      <p><strong>Dates:</strong> December 8–11</p>
-      <p><strong>Location:</strong> Phoenix, Arizona</p>
-      <p><strong>Duration:</strong> 4 Days</p>
-      <p>Call <strong>(602) 864-6564</strong> to register for a class at The Asbestos Institute.</p>
-    </div>
+</div>
 
-    <a href="tel:16028646564" class="register-btn">Call to Register</a>
-  </section>
+<div class="class-info">
+
+<h2>WRT – Water Damage Restoration Technician</h2>
+
+<p><strong>Dates:</strong> August 3–5</p>
+
+<p><strong>Location:</strong> Phoenix, Arizona</p>
+
+<p><strong>Duration:</strong> 3-Day IICRC Certification Course</p>
+
+<p>
+Register online at
+<a href="https://www.theasbestosinstitute.com/" target="_blank" style="color:#f04b24;">
+The Asbestos Institute
+</a>
+or call <strong>(602) 864-6564</strong>.
+</p>
+
+</div>
+
+<a href="https://www.theasbestosinstitute.com/"
+target="_blank"
+class="register-btn">
+
+Register Now
+
+</a>
+
+</div>
+
+<div class="class-card">
+
+<div class="class-date">
+
+<span>DEC</span>
+
+<strong>08</strong>
+
+</div>
+
+<div class="class-info">
+
+<h2>AMRT – Applied Microbial Remediation Technician</h2>
+
+<p><strong>Dates:</strong> December 8–11</p>
+
+<p><strong>Location:</strong> Phoenix, Arizona</p>
+
+<p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
+
+<p>
+Register online at
+<a href="https://www.theasbestosinstitute.com/" target="_blank" style="color:#f04b24;">
+The Asbestos Institute
+</a>
+or call <strong>(602) 864-6564</strong>.
+</p>
+
+</div>
+
+<a href="https://www.theasbestosinstitute.com/"
+target="_blank"
+class="register-btn">
+
+Register Now
+
+</a>
+
+</div>
 
 </main>
 
 </body>
+
 </html>
