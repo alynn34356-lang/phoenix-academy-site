@@ -57,10 +57,17 @@ main {
   }
 }
 
+/* Make selected paragraphs larger */
+.services-description {
+  font-size: 22px;
+  line-height: 1.6;
+}
+
 footer {
   text-align: center;
   padding: 10px;
 }
+
 /* Instructor page formatting */
 #instructor-details {
     max-width: 900px;
