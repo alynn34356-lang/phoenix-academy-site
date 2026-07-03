@@ -1,191 +1,65 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
-<meta charset="UTF-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-
-<title>Available Classes | The Phoenix Academy</title>
-
-<link rel="stylesheet" href="style.css">
-
-<style>
-
-body{
-    margin:0;
-    background:#19191A;
-    color:white;
-    font-family:Arial, Helvetica, sans-serif;
-}
-
-.classes-page{
-
-    max-width:1200px;
-
-    margin:auto;
-
-    padding:50px 20px;
-
-}
-
-.classes-page h1{
-
-    text-align:center;
-
-    font-size:56px;
-
-    margin-bottom:50px;
-
-    letter-spacing:2px;
-
-}
-
-.class-card{
-
-    display:flex;
-
-    align-items:center;
-
-    background:#202022;
-
-    border:1px solid #333;
-
-    border-radius:12px;
-
-    margin-bottom:30px;
-
-    padding:25px;
-
-    transition:.3s;
-
-}
-
-.class-card:hover{
-
-    border-color:#f04b24;
-
-    box-shadow:0 10px 30px rgba(0,0,0,.45);
-
-    transform:translateY(-3px);
-
-}
-
-.class-date{
-
-    width:120px;
-
-    min-width:120px;
-
-    height:120px;
-
-    margin-right:30px;
-
-    border-radius:10px;
-
-    background:linear-gradient(180deg,#f35a27,#d92b1e);
-
-    color:white;
-
-    display:flex;
-
-    flex-direction:column;
-
-    justify-content:center;
-
-    align-items:center;
-
-}
-
-.class-date span{
-
-    font-size:24px;
-
-    font-weight:bold;
-
-}
-
-.class-date strong{
-
-    font-size:56px;
-
-    line-height:1;
-
-}
-
-.class-info{
-
-    flex:1;
-
-}
-
-.class-info h2{
-
-    margin-top:0;
-
-    font-size:36px;
-
-}
-
-.class-info p{
-
-    font-size:20px;
-
-    color:#d6d6d6;
-
-    margin:8px 0;
-
-}
-
-.register-btn{
-
-    background:#f04b24;
-
-    color:white;
-
-    padding:18px 30px;
-
-    border-radius:8px;
-
-    text-decoration:none;
-
-    font-weight:bold;
-
-    font-size:18px;
-
-    transition:.3s;
-
-}
-
-.register-btn:hover{
-
-    background:#ff6333;
-
-}
-
-@media(max-width:900px){
-
-.class-card{
-
-flex-direction:column;
-
-text-align:center;
-
-}
-
-.class-date{
-
-margin:0 0 25px;
-
-}
-
-.register-btn{
-
-margin-top:25px;
-
-}
-
-}
-
-</style>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>IICRC WRT & AMRT Certification Classes Schedule | The Phoenix Academy</title>
+
+  <meta name="description" content="Upcoming IICRC certification training classes including WRT and AMRT courses across the United States. Call 623-687-7933 to register.">
+
+  <link rel="stylesheet" href="style.css">
+
+  <!-- SEO: Course Structured Data -->
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "ItemList",
+    "name": "IICRC Certification Training Schedule",
+    "itemListElement": [
+      {
+        "@type": "Course",
+        "name": "AMRT Certification Training",
+        "description": "Applied Microbial Remediation Technician training",
+        "provider": {
+          "@type": "Organization",
+          "name": "The Phoenix Academy",
+          "telephone": "623-687-7933"
+        },
+        "location": "Baton Rouge, Louisiana",
+        "startDate": "2026-08-25",
+        "endDate": "2026-08-28"
+      },
+      {
+        "@type": "Course",
+        "name": "WRT Certification Training",
+        "description": "Water Damage Restoration Technician training",
+        "provider": {
+          "@type": "Organization",
+          "name": "The Phoenix Academy",
+          "telephone": "623-687-7933"
+        },
+        "location": "Houston, Texas",
+        "startDate": "2026-09-15",
+        "endDate": "2026-09-17"
+      },
+      {
+        "@type": "Course",
+        "name": "AMRT Certification Training",
+        "description": "Applied Microbial Remediation Technician training",
+        "provider": {
+          "@type": "Organization",
+          "name": "The Phoenix Academy",
+          "telephone": "623-687-7933"
+        },
+        "location": "Dallas, Texas",
+        "startDate": "2026-09-22",
+        "endDate": "2026-09-25"
+      }
+    ]
+  }
+  </script>
 
 </head>
 
@@ -193,353 +67,29 @@ margin-top:25px;
 
 <header>
 
-<img src="images/PhoenixAcademyLogo.png" alt="Phoenix Academy Logo" id="logo">
+  <img src="images/PhoenixAcademyLogo.png" alt="Phoenix Academy Logo" id="logo">
 
-<h1>The Phoenix Academy</h1>
-
-<nav>
-
-<a href="index.html">Home</a>
-
-<a href="about.html">About</a>
-
-<a href="classes.html">Available Classes</a>
-
-<a href="contact.html">Contact</a>
-
-</nav>
+  <nav>
+    <a href="index.html">Home</a>
+    <a href="about.html">About</a>
+    <a href="classes.html">Available Classes</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
 </header>
 
 <main class="classes-page">
 
-<h1>AVAILABLE CLASSES</h1>
+  <h1>IICRC Certification Training Schedule – WRT & AMRT Classes Nationwide</h1>
 
-<div class="class-card">
+  <p>
+    Browse upcoming IICRC certification training courses including WRT (Water Damage Restoration Technician) and AMRT (Applied Microbial Remediation Technician) classes across the United States.
+  </p>
 
-<div class="class-date">
+  <!-- KEEP YOUR EXISTING CLASS CARDS HERE -->
+  <!-- (No need to change your design anymore) -->
 
-<span>AUG</span>
+</main>
 
-<strong>03</strong>
-
-</div>
-
-<div class="class-info">
-
-<h2>WRT – Water Damage Restoration Technician</h2>
-
-<p><strong>Dates:</strong> August 3–5</p>
-
-<p><strong>Location:</strong> Phoenix, Arizona at The Asbestos Institute</p>
-
-<p><strong>Duration:</strong> 3-Day IICRC Certification Course</p>
-
-<p>
- Register for WRT Class:<br>
-  <a href="https://www.theasbestosinstitute.com/courses/iicrc-wrt-initial-24-hr-in-person/" target="_blank" style="color:#f04b24;">
-    Click here to enroll
-  </a>
-</a>
-</p>
-
-</div>
-
-<a href="https://www.theasbestosinstitute.com/courses/iicrc-wrt-initial-24-hr-in-person/"
-target="_blank"
-class="register-btn">
-
-Register Now
-
-</a>
-
-</div>
-<div class="class-card">
-
-    <div class="class-date">
-        <span>AUG</span>
-        <strong>25</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> August 25–28</p>
-        <p><strong>Location:</strong> Baton Rouge, Louisiana</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>SEP</span>
-        <strong>15</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>WRT – Water Damage Restoration Technician</h2>
-
-        <p><strong>Dates:</strong> September 15–17</p>
-        <p><strong>Location:</strong> Houston, Texas at Aramsco</p>
-        <p><strong>Duration:</strong> 3-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>SEP</span>
-        <strong>22</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> September 22–25</p>
-        <p><strong>Location:</strong> Dallas, Texas at Aramsco</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>SEP</span>
-        <strong>29</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> September 29 – October 2</p>
-        <p><strong>Location:</strong> Phoenix, Arizona at Aramsco</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>OCT</span>
-        <strong>06</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> October 6–9</p>
-        <p><strong>Location:</strong> Baltimore, Maryland at Aramsco</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>OCT</span>
-        <strong>13</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> October 13–16</p>
-        <p><strong>Location:</strong> Rancho Cordova, California at RestCon</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>OCT</span>
-        <strong>27</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> October 27–30</p>
-        <p><strong>Location:</strong> Lorton, Virginia at Aramsco</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>NOV</span>
-        <strong>04</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>WRT – Water Damage Restoration Technician</h2>
-
-        <p><strong>Dates:</strong> November 4–6</p>
-        <p><strong>Location:</strong> Omaha, Nebraska at Aramsco</p>
-        <p><strong>Duration:</strong> 3-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>NOV</span>
-        <strong>11</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>WRT – Water Damage Restoration Technician</h2>
-
-        <p><strong>Dates:</strong> November 11–13</p>
-        <p><strong>Location:</strong> Tustin, California at Aramsco</p>
-        <p><strong>Duration:</strong> 3-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>NOV</span>
-        <strong>17</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> November 17–20</p>
-        <p><strong>Location:</strong> Houston, Texas at Aramsco</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>DEC</span>
-        <strong>01</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> December 1–4</p>
-        <p><strong>Location:</strong> Albuquerque, New Mexico</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-        <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-    <div class="class-card">
-
-    <div class="class-date">
-        <span>DEC</span>
-        <strong>15</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> December 15–18</p>
-        <p><strong>Location:</strong> Stillwater, Oklahoma at Absolute Restoration</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-         <p><strong>Register Now:</strong> Call (623)687-7933</p>
-    </div>
-
-    <a href="tel:6236877933"
-       class="register-btn">
-        Click To Call For Registration
-    </a>
-
-</div>
-  <div class="class-card">
-
-
-    <div class="class-date">
-        <span>DEC</span>
-        <strong>08</strong>
-    </div>
-
-    <div class="class-info">
-        <h2>AMRT – Applied Microbial Remediation Technician</h2>
-
-        <p><strong>Dates:</strong> December 8–11</p>
-        <p><strong>Location:</strong> Phoenix, Arizona at The Asbestos Institute</p>
-        <p><strong>Duration:</strong> 4-Day IICRC Certification Course</p>
-    </div>
-
-    <a href="https://www.theasbestosinstitute.com/courses/iicrc-amrt-initial-32-hr-in-person/"
-       target="_blank"
-       class="register-btn">
-        Register Now
-    </a>
-    
 </body>
-
 </html>
