@@ -89,3 +89,7 @@ footer {
 #instructor-details h3 {
     margin-top: 30px;
 }
+#hero h2 {
+  color: #0b5ed7;
+  -webkit-text-fill-color: #0b5ed7;
+}
