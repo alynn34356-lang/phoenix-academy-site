@@ -68,6 +68,36 @@
     }
 
     nav a{color:#fff;margin:0 10px;text-decoration:none;}
+    /* ===== Mobile Fix ===== */
+@media (max-width:768px){
+
+  .class-card{
+    flex-direction:column;
+    align-items:center;
+    text-align:center;
+  }
+
+  .class-date{
+    width:100px;
+    min-width:100px;
+    height:100px;
+  }
+
+  .class-info{
+    width:100%;
+  }
+
+  .register-btn{
+    display:block;
+    width:100%;
+    max-width:260px;
+    margin-top:15px;
+    text-align:center;
+    white-space:normal;
+    box-sizing:border-box;
+  }
+
+}
   </style>
 </head>
 
@@ -110,8 +140,7 @@
      class="register-btn">
     Click To Register
   </a>
-  </div>
-
+ 
 </div>
 <div class="class-card">
   <div class="class-date"><span>AUG</span><strong>25</strong></div>
@@ -256,7 +285,6 @@
           Click To Register
     </a>
 
-  </div>
 
 </div>
 
