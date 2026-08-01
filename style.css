@@ -7,6 +7,7 @@ body {
 header {
   text-align: center;
   padding: 20px;
+  margin-bottom: 20px;
 }
 
 #logo {
@@ -15,12 +16,24 @@ header {
   margin-right: 20px;
 }
 
-nav a {
-  margin: 0 10px;
-  color: white;
-  text-decoration: none;
+nav {
+  margin-top: 20px;
 }
 
+nav a {
+  display: inline-block;
+  margin: 0 18px;
+  color: white;
+  text-decoration: none;
+  font-size: 26px;
+  font-weight: 700;
+  letter-spacing: .5px;
+  transition: color .3s ease;
+}
+
+nav a:hover {
+  color: #dc143c;
+}
 main {
   font-size: 18px;
   line-height: 1.6;
@@ -96,4 +109,11 @@ footer {
   color: #dc143c !important;
   -webkit-text-fill-color: #dc143c !important;
   text-decoration: none;
+}
+/* Mobile navigation */
+@media (max-width: 768px) {
+  nav a {
+    font-size: 18px;
+    margin: 0 8px;
+  }
 }
