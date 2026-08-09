@@ -117,3 +117,50 @@ footer {
     margin: 0 8px;
   }
 }
+/* Available Classes + Video */
+.classes-video-layout {
+display: grid;
+grid-template-columns: 1.4fr 1fr;
+gap: 40px;
+align-items: start;
+max-width: 1200px;
+margin: 0 auto;
+}
+
+.classes-list {
+width: 100%;
+}
+
+.classes-video {
+text-align: center;
+position: sticky;
+top: 20px;
+}
+
+.classes-video h2 {
+margin-bottom: 20px;
+}
+
+.classes-video video {
+width: 100%;
+max-width: 500px;
+height: auto;
+border-radius: 12px;
+box-shadow: 0 4px 15px rgba(0, 0, 0, 0.2);
+}
+
+/* Mobile */
+@media (max-width: 800px) {
+.classes-video-layout {
+grid-template-columns: 1fr;
+gap: 30px;
+}
+
+.classes-video {
+position: static;
+}
+
+.classes-video video {
+max-width: 100%;
+}
+}
