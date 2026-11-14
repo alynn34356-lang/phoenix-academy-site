@@ -325,3 +325,51 @@ footer p {
     }
 }
 
+/* FORCE THE ENTIRE WEBSITE BACKGROUND TO WHITE */
+
+html,
+body {
+    background-color: #FFFFFF !important;
+    color: #292929;
+    min-height: 100%;
+}
+
+body,
+main,
+section,
+article,
+.container,
+.content,
+#main,
+#content,
+#services,
+#about,
+#classes,
+#contact,
+#instructors,
+#hero {
+    background-color: #FFFFFF !important;
+    color: #292929;
+}
+
+/* Keep selected sections a light gray */
+#hero {
+    background-color: #F4F4F4 !important;
+}
+
+/* Keep service cards light gray */
+.service-card {
+    background-color: #F4F4F4 !important;
+}
+
+/* Keep class cards white */
+.class-card {
+    background-color: #FFFFFF !important;
+}
+
+/* Keep the footer charcoal */
+footer {
+    background-color: #292929 !important;
+    color: #FFFFFF !important;
+}
+
