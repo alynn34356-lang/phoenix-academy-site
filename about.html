@@ -11,19 +11,22 @@
   <meta name="description" content="Learn about Phoenix Academy AZ and our professional IICRC, asbestos, OSHA, HAZWOPER, healthcare infection control, and environmental safety certification training.">
 
   <link rel="canonical" href="https://phoenixacademyaz.com/about.html">
-  <link rel="stylesheet" href="style.css">
 
   <style>
-    /* PHOENIX ACADEMY - ABOUT PAGE */
-
-    html,
-    body {
-      margin: 0;
+    /* FORCE WHITE PAGE BACKGROUND */
+    html, body {
+      background-color: #FFFFFF !important;
+      background-image: none !important;
+      color: #292929 !important;
+      margin: 0 !important;
       padding: 0;
-      background: #FFFFFF !important;
-      color: #292929;
       font-family: Arial, Helvetica, sans-serif;
       line-height: 1.6;
+      min-height: 100%;
+    }
+
+    body * {
+      box-sizing: border-box;
     }
 
     /* HEADER */
@@ -31,26 +34,28 @@
       display: flex;
       flex-direction: column;
       align-items: center;
-      padding: 20px;
       text-align: center;
+      padding: 25px 20px;
       background: #FFFFFF !important;
+      color: #292929 !important;
       border-bottom: 1px solid #DDDDDD;
     }
 
     .logo {
       width: 180px;
+      max-width: 100%;
       height: auto;
       margin-bottom: 10px;
     }
 
     header h1 {
-      color: #292929;
+      color: #292929 !important;
       margin: 10px 0;
       font-size: 2rem;
     }
 
     header p {
-      color: #444444;
+      color: #444444 !important;
       margin: 5px 0 15px;
     }
 
@@ -60,35 +65,45 @@
       justify-content: center;
       flex-wrap: wrap;
       gap: 10px;
+      margin-top: 12px;
     }
 
     nav a {
       color: #292929 !important;
-      margin: 0 10px;
       text-decoration: none;
       font-weight: bold;
+      margin: 0 10px;
     }
 
     nav a:hover {
       color: #7B263A !important;
+      text-decoration: underline;
     }
 
     /* MAIN CONTENT */
+    main {
+      background: #FFFFFF !important;
+      color: #292929 !important;
+      padding: 1px 0;
+    }
+
     .container {
       max-width: 1100px;
       margin: 35px auto;
       padding: 0 20px;
+      background: #FFFFFF !important;
     }
 
-    /* CONTENT CARDS */
+    /* COURSE CARDS */
     .card {
-      background: #FFFFFF !important;
+      background-color: #FFFFFF !important;
+      background-image: none !important;
       color: #292929 !important;
       padding: 25px;
       margin-bottom: 22px;
       border: 1px solid #DDDDDD;
       border-left: 5px solid #7B263A;
-      border-radius: 12px;
+      border-radius: 10px;
       box-shadow: 0 3px 10px rgba(0,0,0,0.06);
     }
 
@@ -99,13 +114,17 @@
       font-size: 25px;
     }
 
-    .card p {
+    .card p,
+    .card ul,
+    .card li {
       color: #444444 !important;
+    }
+
+    .card p {
       margin: 8px 0;
     }
 
     .card ul {
-      color: #444444 !important;
       padding-left: 22px;
       margin-bottom: 5px;
     }
@@ -117,13 +136,13 @@
     /* COURSE TAGS */
     .tag {
       display: inline-block;
-      background: #7B263A;
+      background: #7B263A !important;
+      color: #FFFFFF !important;
       padding: 5px 12px;
       border-radius: 20px;
       font-size: 12px;
       font-weight: bold;
       margin-bottom: 12px;
-      color: #FFFFFF;
     }
 
     /* FOOTER */
@@ -131,8 +150,8 @@
       text-align: center;
       padding: 25px 20px;
       font-size: 14px;
-      color: #FFFFFF;
-      background: #292929;
+      color: #FFFFFF !important;
+      background: #292929 !important;
       margin-top: 40px;
     }
 
@@ -193,9 +212,9 @@
   </nav>
 </header>
 
+<main>
 <div class="container">
 
-  <!-- ABOUT US -->
   <div class="card">
     <h2>About Us</h2>
     <p>
@@ -204,7 +223,6 @@
     </p>
   </div>
 
-  <!-- WRT -->
   <div class="card">
     <span class="tag">WRT</span>
     <h2>Water Damage Restoration Technician (WRT)</h2>
@@ -218,7 +236,6 @@
     </ul>
   </div>
 
-  <!-- AMRT -->
   <div class="card">
     <span class="tag">AMRT</span>
     <h2>Applied Microbial Remediation Technician (AMRT)</h2>
@@ -232,7 +249,6 @@
     </ul>
   </div>
 
-  <!-- AHERA CONTRACTOR SUPERVISOR -->
   <div class="card">
     <span class="tag">AHERA C/S</span>
     <h2>AHERA Contractor Supervisor</h2>
@@ -246,7 +262,6 @@
     </ul>
   </div>
 
-  <!-- AHERA WORKER -->
   <div class="card">
     <span class="tag">AHERA W</span>
     <h2>AHERA Worker</h2>
@@ -262,7 +277,6 @@
     </ul>
   </div>
 
-  <!-- AHERA BUILDING INSPECTOR -->
   <div class="card">
     <span class="tag">AHERA BI</span>
     <h2>AHERA Building Inspector Certification Training</h2>
@@ -278,7 +292,6 @@
     </ul>
   </div>
 
-  <!-- AHERA MANAGEMENT PLANNER -->
   <div class="card">
     <span class="tag">AHERA MP</span>
     <h2>AHERA Management Planner</h2>
@@ -292,7 +305,6 @@
     </ul>
   </div>
 
-  <!-- AHERA PROJECT DESIGNER -->
   <div class="card">
     <span class="tag">AHERA PD</span>
     <h2>AHERA Project Designer</h2>
@@ -308,7 +320,6 @@
     </ul>
   </div>
 
-  <!-- AHERA ASBESTOS AWARENESS -->
   <div class="card">
     <span class="tag">AHERA 2HA</span>
     <h2>AHERA 2-Hour Asbestos Awareness Training Certification</h2>
@@ -325,7 +336,6 @@
     </ul>
   </div>
 
-  <!-- OSHA -->
   <div class="card">
     <span class="tag">OSHA 10/30</span>
     <h2>OSHA 10/30-Hour Construction Safety Certification Training</h2>
@@ -343,7 +353,6 @@
     </ul>
   </div>
 
-  <!-- HAZWOPER -->
   <div class="card">
     <span class="tag">HAZWOPER 40</span>
     <h2>40-Hour HAZWOPER Certification Training</h2>
@@ -362,7 +371,6 @@
     </ul>
   </div>
 
-  <!-- PCRA / ICRA -->
   <div class="card">
     <span class="tag">PCRA/ICRA</span>
     <h2>ICRA 2.0 (PCRA/ICRA)</h2>
@@ -380,7 +388,6 @@
     </ul>
   </div>
 
-  <!-- EPA RRP -->
   <div class="card">
     <span class="tag">EPA RRP</span>
     <h2>EPA RRP – Renovation, Repair and Painting</h2>
@@ -397,9 +404,10 @@
   </div>
 
 </div>
+</main>
 
 <footer>
-  © 2026 Phoenix Academy AZ
+  Phoenix Academy established 2025
 </footer>
 
 </body>
