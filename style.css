@@ -372,4 +372,39 @@ footer {
     background-color: #292929 !important;
     color: #FFFFFF !important;
 }
+/* HOME PAGE MOBILE BACKGROUND FIX */
 
+html {
+    color-scheme: light !important;
+    background: #FFFFFF !important;
+}
+
+html body {
+    background: #FFFFFF !important;
+    color: #292929 !important;
+}
+
+@media screen and (max-width: 768px) {
+    html,
+    body,
+    body > main,
+    #services,
+    #instructors {
+        background-color: #FFFFFF !important;
+        color: #292929 !important;
+    }
+
+    #hero {
+        background-color: #F4F4F4 !important;
+    }
+
+    .service-card {
+        background-color: #F4F4F4 !important;
+        color: #292929 !important;
+    }
+
+    footer {
+        background-color: #292929 !important;
+        color: #FFFFFF !important;
+    }
+}
