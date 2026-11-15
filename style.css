@@ -8,14 +8,11 @@
     box-sizing: border-box;
 }
 
-body {
-    margin: 0;
-    padding: 0;
-    background: #FFFFFF;
-    color: #292929;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
+background-image: url("images/biohazard-background.png");
+background-repeat: repeat;
+background-position: center top;
+background-size: 900px auto;
+background-attachment: scroll;
 /* HEADER */
 
 header {
