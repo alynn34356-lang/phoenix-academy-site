@@ -8,11 +8,7 @@
     box-sizing: border-box;
 }
 
-background-image: url("images/biohazard-background.png");
-background-repeat: repeat;
-background-position: center top;
-background-size: 900px auto;
-background-attachment: scroll;
+
 /* HEADER */
 
 header {
@@ -322,16 +318,27 @@ footer p {
     }
 }
 
-/* FORCE THE ENTIRE WEBSITE BACKGROUND TO WHITE */
 
-html,
+/* HOMEPAGE BACKGROUND - FAINT BIOHAZARD WATERMARK */
+
+html {
+    background-color: #FFFFFF !important;
+    color-scheme: light !important;
+}
+
 body {
     background-color: #FFFFFF !important;
+    background-image: url("images/biohazard-background.png") !important;
+    background-repeat: repeat !important;
+    background-position: center top;
+    background-size: 900px auto;
+    background-attachment: scroll;
     color: #292929;
     min-height: 100%;
 }
 
-body,
+/* Allow the watermark to show behind page content */
+
 main,
 section,
 article,
@@ -343,65 +350,59 @@ article,
 #about,
 #classes,
 #contact,
-#instructors,
-#hero {
-    background-color: #FFFFFF !important;
+#instructors {
+    background-color: transparent !important;
     color: #292929;
 }
 
-/* Keep selected sections a light gray */
+/* Keep the header clean and white */
+
+header {
+    background-color: #FFFFFF !important;
+}
+
+/* Keep the hero section light gray */
+
 #hero {
     background-color: #F4F4F4 !important;
 }
 
 /* Keep service cards light gray */
+
 .service-card {
     background-color: #F4F4F4 !important;
+    color: #292929 !important;
 }
 
-/* Keep class cards white */
+/* Keep registration cards white */
+
 .class-card {
     background-color: #FFFFFF !important;
 }
 
-/* Keep the footer charcoal */
+/* Keep footer charcoal */
+
 footer {
     background-color: #292929 !important;
     color: #FFFFFF !important;
 }
-/* HOME PAGE MOBILE BACKGROUND FIX */
 
-html {
-    color-scheme: light !important;
-    background: #FFFFFF !important;
+footer p {
+    color: #FFFFFF !important;
 }
 
-html body {
-    background: #FFFFFF !important;
-    color: #292929 !important;
-}
+/* MOBILE BACKGROUND */
 
 @media screen and (max-width: 768px) {
     html,
-    body,
-    body > main,
-    #services,
-    #instructors {
+    body {
         background-color: #FFFFFF !important;
-        color: #292929 !important;
     }
 
-    #hero {
-        background-color: #F4F4F4 !important;
-    }
-
-    .service-card {
-        background-color: #F4F4F4 !important;
-        color: #292929 !important;
-    }
-
-    footer {
-        background-color: #292929 !important;
-        color: #FFFFFF !important;
+    body {
+        background-image: url("images/biohazard-background.png") !important;
+        background-repeat: repeat !important;
+        background-size: 700px auto;
+        background-position: center top;
     }
 }
