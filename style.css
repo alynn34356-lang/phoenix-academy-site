@@ -495,3 +495,142 @@ footer p {
         text-align: center;
     }
 }
+
+/* =====================================
+   UPCOMING CLASSES - HOMEPAGE DESIGN
+===================================== */
+
+.upcoming-section {
+    max-width: 1200px;
+    margin: 45px auto;
+    padding: 35px 25px;
+    text-align: center;
+    background: rgba(255, 255, 255, 0.96);
+    border-top: 4px solid #7B263A;
+    border-bottom: 1px solid #DDDDDD;
+    border-radius: 10px;
+}
+
+.upcoming-section h2 {
+    color: #7B263A;
+    font-size: 32px;
+    margin-bottom: 10px;
+}
+
+.upcoming-intro {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 17px;
+    line-height: 1.6;
+}
+
+.upcoming-grid {
+    display: grid;
+    grid-template-columns: repeat(3, minmax(0, 1fr));
+    gap: 22px;
+    align-items: stretch;
+}
+
+.upcoming-card {
+    display: flex;
+    flex-direction: column;
+    background: #FFFFFF;
+    border: 1px solid #DDDDDD;
+    border-radius: 10px;
+    overflow: hidden;
+    box-shadow: 0 4px 14px rgba(0,0,0,0.07);
+    transition: transform 0.25s ease, box-shadow 0.25s ease;
+}
+
+.upcoming-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 20px rgba(0,0,0,0.13);
+}
+
+.upcoming-date {
+    background: #7B263A;
+    color: #FFFFFF;
+    padding: 15px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.upcoming-date span {
+    font-size: 14px;
+    font-weight: bold;
+    letter-spacing: 2px;
+}
+
+.upcoming-date strong {
+    font-size: 46px;
+    line-height: 1.15;
+}
+
+.upcoming-details {
+    flex: 1;
+    padding: 20px 16px;
+}
+
+.upcoming-details h3 {
+    color: #7B263A;
+    font-size: 21px;
+    margin: 0 0 10px;
+}
+
+.upcoming-details p {
+    color: #444444;
+    font-size: 15px;
+    line-height: 1.5;
+    margin: 7px 0;
+}
+
+.upcoming-location {
+    font-weight: bold;
+}
+
+.upcoming-register {
+    display: block;
+    margin: 0 16px 18px;
+    padding: 12px;
+    background: #7B263A;
+    color: #FFFFFF !important;
+    border: 2px solid #7B263A;
+    border-radius: 6px;
+    text-decoration: none !important;
+    font-size: 15px;
+    font-weight: bold;
+    transition: background 0.2s ease;
+}
+
+.upcoming-register:hover {
+    background: #57202E;
+    border-color: #57202E;
+}
+
+.upcoming-all {
+    margin-top: 30px;
+}
+
+/* TABLET AND MOBILE */
+
+@media screen and (max-width: 768px) {
+
+    .upcoming-section {
+        margin: 25px 12px;
+        padding: 25px 15px;
+    }
+
+    .upcoming-section h2 {
+        font-size: 26px;
+    }
+
+    .upcoming-grid {
+        grid-template-columns: 1fr;
+        gap: 18px;
+    }
+
+    .upcoming-date strong {
+        font-size: 40px;
+    }
+}
