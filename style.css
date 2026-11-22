@@ -634,3 +634,179 @@ footer p {
         font-size: 40px;
     }
 }
+
+/* =====================================
+   PHOENIX ACADEMY - ASK US POPUP
+===================================== */
+
+.ask-us-button {
+    position: fixed;
+    bottom: 25px;
+    right: 25px;
+    z-index: 9999;
+    background: #7B263A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 50px;
+    padding: 16px 24px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+    box-shadow: 0 4px 15px rgba(0,0,0,0.25);
+    transition: all 0.3s ease;
+}
+
+.ask-us-button:hover {
+    background: #57202E;
+    transform: translateY(-3px);
+}
+
+/* POPUP OVERLAY */
+
+.ask-us-overlay {
+    display: none;
+    position: fixed;
+    inset: 0;
+    z-index: 10000;
+    background: rgba(0,0,0,0.55);
+    justify-content: center;
+    align-items: center;
+    padding: 15px;
+}
+
+.ask-us-overlay.active {
+    display: flex;
+}
+
+/* POPUP BOX */
+
+.ask-us-popup {
+    background: #FFFFFF;
+    width: 100%;
+    max-width: 450px;
+    max-height: 90vh;
+    overflow-y: auto;
+    border-radius: 14px;
+    padding: 30px;
+    box-shadow: 0 10px 35px rgba(0,0,0,0.25);
+    position: relative;
+}
+
+/* POPUP HEADER */
+
+.ask-us-popup h2 {
+    color: #7B263A;
+    font-size: 27px;
+    margin: 0 0 10px;
+    text-align: center;
+}
+
+.ask-us-popup p {
+    text-align: center;
+    margin-bottom: 22px;
+    color: #555555;
+}
+
+/* CLOSE BUTTON */
+
+.ask-us-close {
+    position: absolute;
+    top: 12px;
+    right: 15px;
+    background: none;
+    border: none;
+    font-size: 28px;
+    color: #777777;
+    cursor: pointer;
+}
+
+/* FORM FIELDS */
+
+.ask-us-popup label {
+    display: block;
+    color: #292929;
+    font-weight: bold;
+    margin: 14px 0 6px;
+}
+
+.ask-us-popup input,
+.ask-us-popup textarea {
+    width: 100%;
+    padding: 12px;
+    border: 1px solid #CCCCCC;
+    border-radius: 6px;
+    font-size: 16px;
+    font-family: inherit;
+}
+
+.ask-us-popup input:focus,
+.ask-us-popup textarea:focus {
+    outline: none;
+    border-color: #7B263A;
+    box-shadow: 0 0 0 2px rgba(123,38,58,0.15);
+}
+
+.ask-us-popup textarea {
+    min-height: 120px;
+    resize: vertical;
+}
+
+/* SUBMIT BUTTON */
+
+.ask-us-submit {
+    width: 100%;
+    margin-top: 20px;
+    padding: 14px;
+    background: #7B263A;
+    color: #FFFFFF;
+    border: none;
+    border-radius: 6px;
+    font-size: 17px;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+.ask-us-submit:hover {
+    background: #57202E;
+}
+
+.ask-us-submit:disabled {
+    opacity: 0.6;
+    cursor: not-allowed;
+}
+
+/* FORM STATUS */
+
+.ask-us-status {
+    margin-top: 15px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.ask-us-status.success {
+    color: #267A36;
+}
+
+.ask-us-status.error {
+    color: #B00020;
+}
+
+/* MOBILE */
+
+@media (max-width: 480px) {
+
+    .ask-us-button {
+        bottom: 18px;
+        right: 18px;
+        padding: 14px 20px;
+        font-size: 16px;
+    }
+
+    .ask-us-popup {
+        padding: 25px 20px;
+    }
+
+    .ask-us-popup h2 {
+        font-size: 24px;
+    }
+}
